@@ -1,0 +1,11 @@
+npx expo start
+
+
+if error 
+
+# Reinstall expo-modules-core explicitly
+expo install expo-modules-core
+
+npm install expo-modules-core@latest
+
+npx expo prebuild --clean
