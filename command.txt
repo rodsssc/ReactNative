@@ -9,3 +9,11 @@ expo install expo-modules-core
 npm install expo-modules-core@latest
 
 npx expo prebuild --clean
+
+npx expo start --clear
+
+npm cache clean --force
+
+rm -rf node_modules
+
+rm package-lock.json
