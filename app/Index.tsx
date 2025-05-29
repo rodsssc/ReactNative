@@ -1,22 +1,29 @@
-import {Text,View} from 'react-native';
+import {Text,View,ScrollView,StyleSheet} from 'react-native';
 import Button from './components/button';
-import Challenge1 from './components/challenge1'
-import Challenge2 from './components/challenge2'
-import Challenge3 from './components/challenge3';
+import Challenge5 from './components/challenge5';
+import Challenge6 from './components/challenge6';
+import Product from './components/product';
+import Reducer from './components/useReducer';
+import Challenge7 from './components/useReducer';
 
 
 const Index = () =>{
     return(
         <>
-        <View>
-            <Text>Home Page</Text>
-             <Challenge3/>
-        </View>
-
+            <View>
+                <Text>Home Page</Text>
+                <Challenge7/>
+            </View>
+    
        
         
         </>
+        
     );
+ 
+   
+    
 }
+
 
 export default Index;
